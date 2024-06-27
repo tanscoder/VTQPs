@@ -1,0 +1,89 @@
+body{ 
+    background-color: blue;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+
+.superToolBar{ 
+
+    background-color: brown;
+    border-radius: 18px;
+    display: flex;
+    /* flex-direction: row;  */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.toolBar{ 
+
+   background-color: bisque;
+   width:32%;
+   padding: 1%;
+   margin: 1%;
+   font-size: 100%;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+   align-items: center;
+   
+
+
+}
+
+.subToolBar{ 
+
+    padding: 1%;
+}
+
+#Access{ 
+
+    background-color: antiquewhite;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    /* width: 32%; */
+}
+
+
+
+.superTabs{ 
+
+      background-color: blueviolet;
+       padding:1%;
+       margin:2%;
+       display: flex;
+       justify-content: space-around; 
+
+}
+
+.Tab{ 
+
+   
+     background-color: beige;
+     padding:1%;
+     margin:1%;
+     border-radius: 10px;
+     text-align: center;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     width: 40vw;
+     height:40vh;
+     
+     
+}
+
+
+
+
+
+
+
+
+
