@@ -1,11 +1,52 @@
-body {
-    font-family: Arial, sans-serif;
+.form{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     background-color: #c8ebf9;
     margin: 0;
-    padding: 0;
+    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
+} 
+
+
+
+
+
+.div1{ 
+    
+    /* color here is for reference */
+     padding: 1%;
+    background-color:blue; 
+}
+
+
+.box{
+    background-color:rebeccapurple;
+    border-color: white;
+    border-radius:8px;
+    border-style: solid;
+    padding:5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+#courseName{ 
+   
+     background-color: aqua;
+     padding:1%;
+     /* display: flex; */
+
+    
+
+}
+
+#courseSelect{ 
+    /* background-color: black; */
+    display:flex;
+    justify-content: space-around;
+
+
 }
 
 
@@ -19,6 +60,7 @@ body {
     box-sizing: border-box;
 }
 .mail-logo-row {
+    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,6 +68,7 @@ body {
     align-items: center;
 }
 .boxA{
+    background-color: tomato;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -49,6 +92,37 @@ input[type="text"], input[type="email"], input[type="file"] {
     box-sizing: border-box;
     border:transparent;
 }
+
+
+
+
+select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+select:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+select {
+    -webkit-appearance:caret;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width=".75" d="M1 1l2 2-2 2"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 10px;
+}
+
+
+
 button {
     display: inline-block;
     border-radius: 10px;
