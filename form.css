@@ -1,41 +1,93 @@
 .form{
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #c8ebf9;
-    margin: 0;
+    background-color:blanchedalmond;
+    margin: 0px;
     padding: 1%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center ;  
+    align-items: center; 
 } 
 
-
-
-
-
-.div1{ 
+.bodyDiv1{ 
     
     /* color here is for reference */
-     padding: 1%;
+     padding: 0%;
     background-color:blue; 
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
 }
 
+.superToolBar{ 
+     background-color: brown;
+     height:50px;
+     padding: 1%;
+     border-radius: 18px;
+
+
+     display: flex;
+
+     justify-content:space-between;
+     align-items: center;  
+
+}
+
+.toolBar{ 
+    /* background-color: coral; */
+     width: 50%;
+     border-radius: 10px;
+/* aqua color  seen is in the html inline css */
+
+     display: flex;
+     justify-content:space-around;
+}
+
+#toolBar{ 
+   background-color: aqua;
+   width: 32%;
+}
+
+#logo{
+    display:flex;
+    justify-content: flex-start ;
+
+    
+
+ }
+
+ .submitPyq{ 
+
+
+    text-align: center;
+
+ }
 
 .box{
     background-color:rebeccapurple;
-    border-color: white;
+    /* border-color: white; */
     border-radius:8px;
-    border-style: solid;
+    /* border-style: solid; */
     padding:5px;
     margin: 10px;
     box-sizing: border-box;
 }
 
 
+#box1{ 
+
+    background-color: lawngreen;
+}
+
+
 #courseName{ 
    
      background-color: aqua;
+     text-align: center;
      padding:1%;
-     /* display: flex; */
+     height: 30vh;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
 
     
 
@@ -43,6 +95,7 @@
 
 #courseSelect{ 
     /* background-color: black; */
+    margin-top: 40px;
     display:flex;
     justify-content: space-around;
 
@@ -50,25 +103,34 @@
 }
 
 
-.box1,.box2,.box3,.box4,.box5{
+/* .box1,.box2,.box3,.box4,.box5{
     background-color: white;
     border-color: white;
     border-radius:8px;
     border-style: solid;
     padding:5px;
     margin: 10px;
-    box-sizing: border-box;
-}
-.mail-logo-row {
+    box-sizing: border-box; 
+}*/
+
+
+/* .mail-logo-row {
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-self: row;
     align-items: center;
-}
+} */
+
+
+
 .boxA{
+
+    /* prashant mail div , deleted */
     background-color: tomato;
+    text-align: center;
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,28 +138,46 @@
     align-items: center;
 }
 .mail {
+  /* prashant mail div , deleted */
     font-size: 14px;
     color: #333;
 }
 .logo img{
+    background-color: rebeccapurple;
     height: 50px;
     width: 50px;
 }
 input[type="text"], input[type="email"], input[type="file"] {
-    width: 40%;
+    
+    width: 200px;
     padding: 8px;
     margin: 5px 0 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px; 
     box-sizing: border-box;
     border:transparent;
+                          
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 1%;
+    margin: 1%;
+    font-size: 16px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; /* Prevent manual resizing */
+    overflow: hidden; /* Hide scrollbar */
+    box-sizing: border-box;
 }
 
 
 
-
 select {
-    width: 200px;
+/*  by tans , and chat gpt */
+
+    width: 200px;  
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -106,6 +186,9 @@ select {
 }
 
 select:focus {
+
+    /*  by tans , and chat gpt */
+
     border-color: #66afe9;
     outline: none;
     box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
@@ -134,8 +217,10 @@ button {
     width: 75px;
 }
 
-button[type="submit"] {
-    background-color: #1a73e8;
+/*  this should be at --1 > button[type="submit"] */
+
+button   /**/ {  
+        background-color: #1a73e8;
     color: #fff;
 }
 
@@ -153,7 +238,7 @@ label[for="file-upload"] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width:10%;
+    width:100px;
 }
 
 label[for="file-upload"] img {
