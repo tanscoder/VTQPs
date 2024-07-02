@@ -1,0 +1,46 @@
+body{ 
+    background-color: blue;
+}
+
+
+.superToolBar{ 
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.toolBar{ 
+    width: 50vw;
+   border-radius: 10px;
+    margin-right:10px ;
+    /* padding: 3%; */
+    display: flex;
+    justify-content : space-around;
+    align-items: center;
+
+}
+
+
+
+.superCourseTab{ 
+    margin-top: 10px;
+    padding:1%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+
+    
+    /* justify-content:; */
+}
+
+.courseTab{ 
+
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+
+}
