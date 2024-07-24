@@ -1,0 +1,184 @@
+/* CSS */
+body{ 
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 100%; /* make the container cover the full width */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+  box-sizing: border-box; /* include padding in the width calculation */
+}
+
+.superToolBar {
+  width: 100%; /* make the superToolBar cover the full width of the container */
+  /* let default one be for now */ /* remove default margin */
+   /* remove default padding */
+  box-sizing: border-box; /* include padding in the width calculation */
+}
+/*
+.superToolBar {
+  width: 100%; /* make the width equal to the full viewport width 
+  margin: 0; /* remove default margin 
+  padding: 0; /* remove default padding 
+  box-sizing: border-box; /* include padding in the width calculation 
+  position: relative; /* add this line 
+  left: 0; /* add this line 
+  flex-wrap: none;
+}*/
+.options-bar {
+  background-color: cadetblue; /* keep the bar brown */
+  padding: 1rem; /* add some padding */
+  width: 100%; /* make the options-bar cover the full width */
+  margin: 0 auto; /* center the options-bar horizontally */
+  box-sizing: border-box; /* include padding in the width calculation */
+  font-family: Calibri, sans-serif; /* add font family Calibri */
+
+
+  display: flex; /* make the image and ul display horizontally */
+  justify-content: space-between;
+  align-items: center; /* vertically center the image and ul */
+ 
+
+}
+
+.logo {
+  height: 50px; /* set the height of the logo image */
+  margin-right: 20px; /* add some space between the logo and the ul */
+}
+
+.options-bar ul {
+  list-style: none; /* remove bullet points */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+  text-align: center;
+  display: flex; /* make the list items display horizontally */
+  justify-content: space-between; /* space the links evenly */
+  align-items: center; /* vertically center the links */
+}
+
+.options-bar li {
+  margin-right: 20px; /* add some space between links */
+  color:black;
+}
+
+.options-bar li div {
+  height: 100%; /* make the div cover the full height of the parent li */
+  display: flex; /* make the div a flex container */
+  align-items: center; /* vertically center the content inside the div */
+  padding: 10px; /* add some padding to the div */
+  transition: background-color 0.2s ease; /* add transition effect */
+}
+
+.options-bar a {
+
+  text-decoration: none; /* remove underline */
+  color: antiquewhite; /* optional text color */
+  transition: color 0.2s ease; /* add transition effect */
+
+}
+
+.options-bar li:hover div {
+  
+  background-color: rgb(148, 71, 224); /* change background color to cadetblue on hover */
+  animation: hover-effect 0.5s forwards; /* add animation */
+}
+
+.options-bar li:hover a {
+  color: #fff; /* change text color to white on hover */
+}
+
+/* animation keyframes */
+@keyframes hover-effect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*                    Till  here, options bar or Tools Bar can be common and can be made into common toolbar code  
+                         futher is an experiment of black box capabilities  */
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center;
+  height: 50vh;  /* subtracting the height of  
+                           options bar from totlat height 
+                           (to center the divs)  */
+  padding: 20px;
+}
+                        
+.tab {
+  background-color: red;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  text-align: center;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+                        
+.tab:hover {
+  background-color: #eee;
+}
+                        
+#access {
+  background-color: #4CAF50;
+  color: #fff;
+}
+                        
+#access:hover {
+  background-color: #3e8e41;
+}
+                        
+#submit {
+  background-color: #2196F3;
+  color: #fff;
+}
+                        
+#submit:hover {
+  background-color: #1a73e8;
+}
+
+
+.footer-image {  /*  image at the bottom */
+  width: 98vw;
+  height: 100vh;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+
+
+                        
+                        /* Responsive design */
+@media (max-width: 768px) {
+  .tab {
+    width: 90%;
+    margin: 10px;
+  }
+}
+                        
+@media (max-width: 480px) {
+  .tab {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+
+
+
+/* color notes : options hover:rgb(247, 156, 242)  
+                good color : rgb(199, 227, 230)
+
+*/
