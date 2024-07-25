@@ -1,3 +1,7 @@
+.body{
+    background-color:white;
+    font-family:calibri,"sans Serif
+}
 .form{
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     background-color:blanchedalmond;
@@ -18,42 +22,7 @@
     flex-direction: column;
 }
 
-.superToolBar{ 
-     background-color: brown;
-     height:50px;
-     padding: 1%;
-     border-radius: 18px;
 
-
-     display: flex;
-
-     justify-content:space-between;
-     align-items: center;  
-
-}
-
-.toolBar{ 
-    /* background-color: coral; */
-     width: 50%;
-     border-radius: 10px;
-/* aqua color  seen is in the html inline css */
-
-     display: flex;
-     justify-content:space-around;
-}
-
-#toolBar{ 
-   background-color: aqua;
-   width: 32%;
-}
-
-#logo{
-    display:flex;
-    justify-content: flex-start ;
-
-    
-
- }
 
  .submitPyq{ 
 
